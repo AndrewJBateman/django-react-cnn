@@ -1,0 +1,91 @@
+# :zap: Django React CNN
+
+* Handwritten number recognition app using a Python-Django backend with a React frontend
+* Code from tutorials by [Pyplane](https://www.youtube.com/channel/UCQtHyVB4O4Nwy1ff5qQnyRw) - see [:clap: Inspiration](#clap-inspiration) below
+
+## :page_facing_up: Table of contents
+
+* [:zap: Django React CNN](#zap-django-react-cnn)
+  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signal_strength-technologies)
+  * [:floppy_disk: Frontend Setup](#floppy_disk-frontend-setup)
+  * [:floppy_disk: Backend Setup](#floppy_disk-backend-setup)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-do list](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
+  * [:envelope: Contact](#envelope-contact)
+
+## :books: General info
+
+* React frontend uses React-draw to draw digits and File-saver to save this digits as jpg files
+* Function to interact with the backend
+* Python-Django backend
+
+## :camera: Screenshots
+
+![screen print](./img/cnn.png)
+
+## :signal_strength: Technologies
+
+* **Frontend**
+* [React v17](https://reactjs.org/) frontend framework
+* [React Bootstrap v1](https://react-bootstrap.github.io/) styles & components - does not need jQuery
+* [Bootstrap v4](https://getbootstrap.com/)
+* [React Sketch v0.5.1][(](https://github.com/tbolis/react-sketch) sketch tool for React based applications, backed-up by FabricJS
+* [Filesaver v2](https://www.npmjs.com/package/file-saver) the solution to saving files on the client-side
+* [Axios v0.21.1](https://www.npmjs.com/package/axios) promise based HTTP client for the browser and node.js
+* **Backend**
+* [Python v3](https://www.python.org/) programming language
+* [Django v3](https://www.djangoproject.com/) server-side web framework
+* [Django REST Framework v3](https://www.django-rest-framework.org/) powerful and flexible toolkit for building Web APIs.
+* [Django CORS Headers](https://pypi.org/project/django-cors-headers/) to add Cross-Origin Resource Sharing (CORS) headers to responses
+
+## :floppy_disk: Frontend Setup
+
+* Run `npm i` to install dependencies
+
+## :floppy_disk: Backend Setup
+
+* [Install Python](https://docs.python-guide.org/starting/installation/)
+* [Install pip](https://docs.python-guide.org/dev/virtualenvs/#installing-pipenv)
+* [Install Django](https://docs.djangoproject.com/en/3.1/howto/windows/) by typing `pip install Django`
+* Run `django-admin startproject example_proj` to create a new project [ref. docs](https://docs.djangoproject.com/en/3.1/intro/tutorial01/)
+* Open `example_proj` in VS Code
+* Run `python manage.py startapp new_module` to create Python module
+* Add code
+* Run `pip freeze` to see list of modules installed. [Ref. Docs](https://pip.pypa.io/en/stable/reference/pip_freeze/)
+* Run `python manage.py makemigrations` for changes to models etc.
+* Run `python manage.py migrate` to migrate the migration files.
+* To add a superuser Run `python manage.py createsuperuser --username=joe --email=joe@example.com` [Ref. Docs](https://docs.djangoproject.com/en/3.1/topics/auth/default/)
+* Run `python manage.py runserver` to run server on port 8000 and open /admin console
+
+## :computer: Code Examples
+
+* extract from t
+
+```python
+
+```
+
+## :cool: Features
+
+* tba
+
+## :clipboard: Status & To-do list
+
+* Status: In progress
+* To-do: Complete
+
+## :clap: Inspiration
+
+* Youtube tutorials from 'Pyplane':
+* [How to sketch in react | Django with AI | How to create a CNN with Django and React part 1](https://www.youtube.com/watch?v=ePWaHLtsz2U)
+* [Django with AI | How to create a CNN with Django & React part 2](https://www.youtube.com/watch?v=3H5-mFf6pJg&t=18s)
+* [virtualenv to path on Windows 10](https://stackoverflow.com/questions/48911582/virtualenv-to-path-on-windows-10)
+
+## :envelope: Contact
+
+* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
