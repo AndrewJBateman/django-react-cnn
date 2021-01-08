@@ -1,6 +1,6 @@
 # :zap: Django React CNN
 
-* Handwritten number recognition app using a Python-Django backend with a React frontend
+* **Incomplete** Handwritten digit classification app based on the Mnist dataset with a Python-Django backend with a React frontend and a Convolutional Neural Network (CNN)
 * Code from tutorials by [Pyplane](https://www.youtube.com/channel/UCQtHyVB4O4Nwy1ff5qQnyRw) - see [:clap: Inspiration](#clap-inspiration) below
 
 ## :page_facing_up: Table of contents
@@ -37,11 +37,12 @@
 * [React Sketch v0.5.1][(](https://github.com/tbolis/react-sketch) sketch tool for React based applications, backed-up by FabricJS
 * [Filesaver v2](https://www.npmjs.com/package/file-saver) the solution to saving files on the client-side
 * [Axios v0.21.1](https://www.npmjs.com/package/axios) promise based HTTP client for the browser and node.js
-* **Backend**
+* **Backend1**
 * [Python v3](https://www.python.org/) programming language
 * [Django v3](https://www.djangoproject.com/) server-side web framework
 * [Django REST Framework v3](https://www.django-rest-framework.org/) powerful and flexible toolkit for building Web APIs.
 * [Django CORS Headers](https://pypi.org/project/django-cors-headers/) to add Cross-Origin Resource Sharing (CORS) headers to responses
+* [Pillow v2](https://pypi.org/project/Pillow/2.2.1/) Python Imaging Library
 
 ## :floppy_disk: Frontend Setup
 
@@ -64,7 +65,7 @@
 
 ## :computer: Code Examples
 
-* extract from t
+* extract from tba
 
 ```python
 
@@ -76,14 +77,20 @@
 
 ## :clipboard: Status & To-do list
 
-* Status: In progress
-* To-do: Complete
+* Status: done up to video 4 5.00 - need to uninstall Python 3.9 and install max v8 or Tensorflow will not install
+* To-do: fix error in React file components/Draw.js. Replace Python
 
 ## :clap: Inspiration
 
 * Youtube tutorials from 'Pyplane':
 * [How to sketch in react | Django with AI | How to create a CNN with Django and React part 1](https://www.youtube.com/watch?v=ePWaHLtsz2U)
 * [Django with AI | How to create a CNN with Django & React part 2](https://www.youtube.com/watch?v=3H5-mFf6pJg&t=18s)
+* [Django with AI | How to create a CNN with Django & React part 3](https://www.youtube.com/watch?v=30QOoLhb5tY)
+* [Django with AI | How to create a CNN with Django & React part 4](https://www.youtube.com/watch?v=wvQ8WVUtVcw)
+
+* [A friendly introduction to Deep Learning and Neural Networks](https://www.youtube.com/watch?v=BR9h47Jtqyw)
+* [A friendly introduction to Convolutional Neural Networks and Image Recognition](https://www.youtube.com/watch?v=2-Ol7ZB0MmU)
+* [Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb) to write and execute Python in your browser
 * [virtualenv to path on Windows 10](https://stackoverflow.com/questions/48911582/virtualenv-to-path-on-windows-10)
 
 ## :envelope: Contact
